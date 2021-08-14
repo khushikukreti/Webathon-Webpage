@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
-
+import React, { useState, useEffect } from 'react'
 import './App.css';
 import Loadingpage from './component/Loadingpage';
 import { BrowserRouter,Switch, Route, useLocation, useHistory } from "react-router-dom";
+import { motion, AnimateSharedLayout, AnimatePresence } from "framer-motion";
 import HomePage from './component/HomePage';
 import CulturalEvent1 from './component/CulturalEvent1';
 import CulturalEvent2 from './component/CulturalEvent2';
@@ -14,12 +14,21 @@ import TechEvent2 from './component/TechEvent2';
 function App() {
   const [loading,setLoading]=useState(true);
   // const location = useLocation();
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false)
+    }, 5000)
+  }, [loading]);
   return (
-    loading?<Loadingpage/>
-    : 
+      <AnimateSharedLayout type='crossfade'>
+        <AnimatePresence>
+          {loading ? (
+            <motion.div key='main-container'>
+              <Loadingpage setLoading={setLoading} />
+            </motion.div>
+          ) : ( 
     <BrowserRouter>
     <Switch >
-      
       <Route path="/CulturalEvent1" component={CulturalEvent1}></Route>
       <Route path="/CulturalEvent2" component={CulturalEvent2}></Route>
       <Route path="/CulturalEvent3" component={CulturalEvent3}></Route>
@@ -29,6 +38,9 @@ function App() {
       <Route path="/" component={HomePage}></Route>
     </Switch>
     </BrowserRouter>
+          )}
+    </AnimatePresence>
+    </AnimateSharedLayout>
   );
 }
 
