@@ -1,0 +1,50 @@
+.main-container{
+    height: 100vh;
+}
+.image1{
+    height: 37%;
+    border: 1px solid;
+    width: 15%;
+    position: absolute;
+    top: 5rem;
+    left: 10rem;
+    z-index: 7;
+
+}
+.image2{
+    height: 37%;
+    border: 1px solid;
+    width: 15%;
+    position: absolute;
+    top: 5rem;
+    right: 10rem;
+    z-index: 7;
+
+}
+.image3{
+    height: 37%;
+    border: 1px solid;
+    width: 15%;
+    position: absolute;
+    bottom: 3rem;
+    left: 14rem;
+    z-index: 7;
+
+}
+.image4{
+    height: 37%;
+    border: 1px solid;
+    width: 15%;
+    position: absolute;
+    bottom: 3rem;
+    right: 14rem;
+    z-index: 7;
+}
+.image5{
+    height: 60%;
+    border: 1px solid;
+    width: 50%;
+    position: absolute;
+    top: 8rem;
+    left: 21rem;
+}
