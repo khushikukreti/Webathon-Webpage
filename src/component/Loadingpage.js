@@ -36,18 +36,17 @@ const container = {
       opacity: 1,
       y: 0,
       transition: {
-        ease: [0.6, 0.01, -0.05, 0.95],
+        ease: [0.17, 0.67, 0.83, 0.67],
         duration: 1.6,
       },
     },
   };
 
-const Loadingpage = ({ setLoading }) => {
+function Loadingpage() {
     return (
         <motion.div 
             className="main-container"
             variants={container}
-            // onAnimationComplete={() => setLoading(false)}
             initial="hidden"
             animate="show"
             exit="exit"
@@ -78,6 +77,7 @@ const Loadingpage = ({ setLoading }) => {
             >image4</motion.div>
             <motion.div className="image5"
                 variants={itemMain}
+                layoutId="main-image"
                 initial="hidden"
                 animate="show"
                 exit="exit"
