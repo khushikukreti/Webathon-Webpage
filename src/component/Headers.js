@@ -14,8 +14,7 @@ function Headers() {
                 <p>Cultural Events</p>
                 <p>Technical Events</p>
                 <p>About</p>
-                <MenuIcon></MenuIcon>
-
+                <MenuIcon className="icon"></MenuIcon>
             </div>
         </div>
     )
