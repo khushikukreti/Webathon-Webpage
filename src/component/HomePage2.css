@@ -21,7 +21,7 @@
     position: absolute;
     right: 29vh;
     margin-top: 20vh;
-    background-image: url(https://miro.medium.com/max/1080/0*ywztPfN728q4891i.jpg);
+    background-image: url("https://miro.medium.com/max/1080/0*ywztPfN728q4891i.jpg");
     background-size: cover;
     z-index: 9;
 }

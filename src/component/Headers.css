@@ -12,7 +12,6 @@
 .header-left{
     display: flex;
     width: 11%;
-    
     margin-left: 35px;
 }
 .header-left>img{

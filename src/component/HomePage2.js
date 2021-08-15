@@ -1,4 +1,3 @@
-import React from 'react'
 import Headers from './Headers'
 import './HomePage2.css'
 import {Link} from 'react-router-dom'
@@ -74,7 +73,7 @@ function HomePage2(props) {
                    >Fest</motion.div>
                    </div>
               <div className="right">
-              <motion.div className="event twice"
+              <motion.div className="event twice" id="Cultural"
               variants={containerVariants}
             initial="hidden"
             animate="visible"
@@ -118,7 +117,7 @@ function HomePage2(props) {
                         >Quiz</motion.div>
                    </div>
                    <div className="right">
-                        <motion.div className="event six"
+                        <motion.div className="event six" id="Tech"
                             variants={containerVariants}
             initial="hidden"
             animate="visible"
