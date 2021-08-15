@@ -1,0 +1,58 @@
+.event1{
+    height: 37%;
+    border: 1px solid;
+    width: 15%;
+    position: absolute;
+    top: 6rem;
+    left: 10rem;
+    z-index: 7;
+}
+.event2{
+    height: 37%;
+    border: 1px solid;
+    width: 15%;
+    position: absolute;
+    top: 6rem;
+    right: 10rem;
+    z-index: 7;
+}
+.event3{
+    height: 37%;
+    border: 1px solid;
+    width: 15%;
+    position: absolute;
+    bottom: 3rem;
+    left: 14rem;
+    z-index: 7;
+}
+.event4{
+    height: 37%;
+    border: 1px solid;
+    width: 15%;
+    position: absolute;
+    bottom: 3rem;
+    right: 14rem;
+    z-index: 7;
+}
+.event5{
+    height: 30%;
+    border: 1px solid;
+    width: 35%;
+    position: absolute;
+    top: 9rem;
+    right: 31rem;
+    z-index: 7;
+    background-image: url("https://tdps.berkeley.edu/sites/default/files/styles/openberkeley_image_full/public/hero_bdp_2019.jpg?itok=1QDn2kIN&timestamp=1559078327");
+    background-size: contain;
+}
+.event6{
+    height: 37%;
+    border: 1px solid;
+    width: 30%;
+    position: absolute;
+    bottom: 3rem;
+    right: 33rem;
+    z-index: 7;
+    background-image: url("http://www.bitoapps.in/photography/img/c.jpg");
+    background-size: contain;
+}
