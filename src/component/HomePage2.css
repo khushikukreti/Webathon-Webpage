@@ -1,0 +1,53 @@
+.homepage{
+    height: 100vh;
+}
+.round-di{
+    height: 98%;
+    /* border: 1px solid; */
+    width: 43%;
+    border-top-left-radius: 264px;
+    border-bottom-left-radius: 264px;
+    margin-left: 57%;
+    margin-top: -5rem;
+    background-color: #FECACA;
+}
+.image-div{
+    height: 51%;
+    width: 38%;
+    /* border: 1px solid; */
+    position: absolute;
+    right: 29vh;
+    margin-top: 20vh;
+    background-image: url(https://miro.medium.com/max/1080/0*ywztPfN728q4891i.jpg);
+    background-size: cover;
+    z-index: 9;
+}
+.style-con{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.text-container{
+    width: 54%;
+    /* border: 1px solid; */
+    position: absolute;
+    height: 81%;
+}
+.text{
+    height: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    margin-top: 30vh;
+    margin-left: 28vh;
+}
+.text>h3:hover{
+    color: grey;
+    
+}
+.text>p{
+    font-size: 24px;
+}
+.text>h3{
+    font-size: 39px;
+}
