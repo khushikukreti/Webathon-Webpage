@@ -11,6 +11,8 @@
 }
 .header-left{
     display: flex;
+    width: 11%;
+    margin-left: 35px;
 }
 .header-left>img{
   object-fit: contain;
@@ -18,5 +20,25 @@
   margin-right: 10px;
 }
 .header-right{
-    display:flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+    color: gray;
+    margin-left: 152px;
+}
+.header-right>p{
+    font-weight: 500;
+    padding-top: 12px;
+}
+.header-right>p:hover{
+    color: black;
+    cursor: pointer;
+}
+.icon{
+    font-size: larger;
+    font-weight: 500;
+}
+.icon:hover{
+    color: black;
 }

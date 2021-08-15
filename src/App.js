@@ -23,8 +23,7 @@ function App() {
   }, [loading]);
   return (
       <AnimateSharedLayout type='crossfade'>
-        <AnimatePresence>
-       
+        <AnimatePresence exitBeforeEnter>
           {loading ? (
             <motion.div key='main-container'>
               <Loadingpage setLoading={setLoading} />
