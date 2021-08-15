@@ -81,7 +81,7 @@ function Loadingpage() {
                 initial="hidden"
                 animate="show"
                 exit="exit"
-            >image5</motion.div>
+            ><img src="src\component\img\0_ywztPfN728q4891i.jpg" alt="" /></motion.div>
         </motion.div>
     )
 }

@@ -1,8 +1,10 @@
 import React from 'react'
 import { motion } from "framer-motion";
-
+import './Homepage.css';
+import Header from './Header';
 function HomePage() {
     return (
+<<<<<<< HEAD
         <motion.div
         style={{height:"30vh",border:"1px solid black"}}
             transition={{ ease: [0.17, 0.67, 0.83, 0.67], duration: 1.6 }}
@@ -10,6 +12,16 @@ function HomePage() {
             >
                 homepage
         </motion.div>
+=======
+        <div className="homepage">
+            <Header />
+            <motion.div className="image-1"
+            transition={{ ease: [0.17, 0.67, 0.83, 0.67], duration: 1.6 }}
+            layoutId='main-image'
+            ><img className="mainimage" src="src\component\img\0_ywztPfN728q4891i.jpg" alt="" />
+            </motion.div>
+        </div>
+>>>>>>> 7255b7ae1c371edf00cd35e610de5e25504e14b2
     )
 }
 
