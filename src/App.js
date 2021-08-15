@@ -14,7 +14,7 @@ import Headers from './component/Headers'
 import HomePage2 from './component/HomePage2';
 
 function App() {
-  const [loading,setLoading]=useState(true);
+  const [loading,setLoading]=useState(false);
   // const location = useLocation();
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -25,12 +25,13 @@ function App() {
       <AnimateSharedLayout type='crossfade'>
         <AnimatePresence exitBeforeEnter>
        
-          {loading ? (
+          {loading ? 
             <motion.div key='main-container'>
               <Loadingpage setLoading={setLoading} />
             </motion.div>
-          ) : ( 
+           : 
             <>
+            <Headers></Headers>
            
     <BrowserRouter>
     {/* <Headers></Headers> */}
@@ -47,7 +48,7 @@ function App() {
     </Switch>
     </BrowserRouter>
     </>
-          )}
+          }
     </AnimatePresence>
     </AnimateSharedLayout>
   );
