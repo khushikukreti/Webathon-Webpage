@@ -77,7 +77,7 @@ function Loadingpage() {
             >image4</motion.div>
             <motion.div className="image5"
                 variants={itemMain}
-                layoutId="main-image"
+                layoutId="card-main-image"
                 initial="hidden"
                 animate="show"
                 exit="exit"
