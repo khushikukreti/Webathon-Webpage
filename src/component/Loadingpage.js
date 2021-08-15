@@ -77,11 +77,11 @@ function Loadingpage() {
             >image4</motion.div>
             <motion.div className="image5"
                 variants={itemMain}
-                layoutId="card-main-image"
+                layoutId="main-image"
                 initial="hidden"
                 animate="show"
                 exit="exit"
-            ><img src="src\component\img\0_ywztPfN728q4891i.jpg" alt="" /></motion.div>
+            ><img src="https://miro.medium.com/max/1080/0*ywztPfN728q4891i.jpg" alt="" /></motion.div>
         </motion.div>
     )
 }

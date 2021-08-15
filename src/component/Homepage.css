@@ -1,8 +1,16 @@
 .mainimage{
-    height: 60%;
+    height: 100vh;
     border: 1px solid;
     width: 75%;
     position: absolute;
     top: 30rem;
     left: 10rem;
+}
+.image-1{
+background-image: url("https://miro.medium.com/max/1080/0*ywztPfN728q4891i.jpg");
+margin-top: 31rem;
+height: 80vh;
+background-repeat: no-repeat;
+border: 1px solid black;
+background-size: cover;
 }
