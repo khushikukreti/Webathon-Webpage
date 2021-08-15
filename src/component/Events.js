@@ -25,6 +25,7 @@ const item = {
 function Events() {
     return (
         <div className='events'>
+          <div className = 'eventI'>
             <motion.div className="event1"
                 variants={item}
                 initial="hidden"
@@ -37,6 +38,8 @@ function Events() {
                 animate="show"
                 exit="exit"
             >event2</motion.div>
+            </div>
+            <div className = 'eventI'>
             <motion.div className="event3"
                 variants={item}
                 initial="hidden"
@@ -49,6 +52,8 @@ function Events() {
                 animate="show"
                 exit="exit"
             >event4</motion.div>
+            </div>
+            <div className = 'eventI'>
             <motion.div className="event5"
                 variants={item}
                 initial="hidden"
@@ -61,6 +66,7 @@ function Events() {
                 animate="show"
                 exit="exit"
             >event6</motion.div>
+            </div>
         </div>
     )
 }
