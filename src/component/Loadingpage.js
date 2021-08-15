@@ -40,6 +40,14 @@ const container = {
         duration: 1.6,
       },
     },
+    exit: {
+      opacity: 0,
+      x: +200,
+      transition: {
+        ease: "easeInOut",
+        duration: 0.8,
+      },
+    },
   };
 
 function Loadingpage() {
@@ -81,7 +89,8 @@ function Loadingpage() {
                 initial="hidden"
                 animate="show"
                 exit="exit"
-            ><img src="https://miro.medium.com/max/1080/0*ywztPfN728q4891i.jpg" alt="" /></motion.div>
+            >
+              </motion.div>
         </motion.div>
     )
 }

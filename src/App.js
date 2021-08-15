@@ -10,6 +10,8 @@ import CulturalEvent3 from './component/CulturalEvent3';
 import CulturalEvent4 from './component/CulturalEvent4';
 import TechEvent1 from './component/TechEvent1';
 import TechEvent2 from './component/TechEvent2';
+import Headers from './component/Headers'
+import HomePage2 from './component/HomePage2';
 
 function App() {
   const [loading,setLoading]=useState(true);
@@ -22,12 +24,16 @@ function App() {
   return (
       <AnimateSharedLayout type='crossfade'>
         <AnimatePresence>
+       
           {loading ? (
             <motion.div key='main-container'>
               <Loadingpage setLoading={setLoading} />
             </motion.div>
           ) : ( 
+            <>
+           
     <BrowserRouter>
+    {/* <Headers></Headers> */}
     <Switch >
       <Route path="/CulturalEvent1" component={CulturalEvent1}></Route>
       <Route path="/CulturalEvent2" component={CulturalEvent2}></Route>
@@ -35,13 +41,17 @@ function App() {
       <Route path="/CulturalEvent4" component={CulturalEvent4}></Route>
       <Route path="/TechEvent1" component={TechEvent1}> </Route>
       <Route path="/TechEvent2" component={TechEvent2}></Route>
-      <Route path="/" component={HomePage}></Route>
+      {/* <Route path="/" component={HomePage}></Route>
+       */}
+       <Route path="/" component={HomePage2}></Route>
     </Switch>
     </BrowserRouter>
+    </>
           )}
     </AnimatePresence>
     </AnimateSharedLayout>
   );
+
 }
 
 export default App;
