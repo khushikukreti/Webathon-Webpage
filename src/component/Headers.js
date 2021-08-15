@@ -1,5 +1,7 @@
 import React from 'react'
 import './Headers.css'
+import MenuIcon from '@material-ui/icons/Menu';
+
 function Headers() {
     return (
         <div className="header">
@@ -12,6 +14,8 @@ function Headers() {
                 <p>Cultural Events</p>
                 <p>Technical Events</p>
                 <p>About</p>
+                <MenuIcon></MenuIcon>
+
             </div>
         </div>
     )
