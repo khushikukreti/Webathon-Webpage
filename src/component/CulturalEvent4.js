@@ -3,7 +3,15 @@ import React from 'react'
 function CulturalEvent4() {
     return (
         <div>
-            4th event
+            <div className="container">
+                    <div className="row">
+                        <div className="col-xl-6 bgImage4" style={{margin: 'auto',height:100 + 'vh'}}>
+                                
+                        </div>
+
+                    </div>
+
+                </div>
         </div>
     )
 }

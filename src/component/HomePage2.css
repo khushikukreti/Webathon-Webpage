@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&display=swap');
+
 .homepage{
     height: 100vh;
 }
@@ -43,6 +45,7 @@
     width: 50%;
     margin-top: 30vh;
     margin-left: 28vh;
+    font-family: 'Cinzel Decorative', cursive;
 }
 .text>h3:hover{
     color: grey;

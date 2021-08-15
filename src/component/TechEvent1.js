@@ -3,7 +3,7 @@ import React from 'react'
 function TechEvent1() {
     return (
         <div>
-            1st tech event
+            Helo
         </div>
     )
 }
