@@ -3,7 +3,15 @@ import React from 'react'
 function TechEvent2() {
     return (
         <div>
-            2nd tech TechEvent1
+             <div className="container">
+                    <div className="row">
+                        <div className="col-xl-6 bgImagetech2" style={{margin:'auto',height:100 + 'vh'}}>
+                                
+                        </div>
+
+                    </div>
+
+                </div>
         </div>
     )
 }

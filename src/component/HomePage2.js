@@ -53,8 +53,7 @@ function HomePage2(props) {
             ></motion.div>
             <div className="text-container">
                 <div className="text">
-                <h3>This is a Sample Text</h3>
-                <p>more sampple text huha how are you</p>
+                <h3>INDEPENDENCE DAY FEST</h3>
                 </div>
                
             </div>

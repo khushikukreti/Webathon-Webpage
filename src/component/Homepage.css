@@ -14,3 +14,23 @@ background-repeat: no-repeat;
 border: 1px solid black;
 background-size: cover;
 }
+
+.bgImage3 {
+background-image: url('./img/dance.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.bgImage2 {
+    background-image: url('./img/song.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+
+    .bgImagetech2 {
+        background-image: url('./img/hackathon.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        }
