@@ -11,8 +11,8 @@ function Headers() {
                 alt="" />
             </div>
             <div className="header-right">
-                <p>Cultural Events</p>
-                <p>Technical Events</p>
+                <p><a href="#Cultural">Cultural Events</a></p>
+                <p><a href="#Tech">Technical Events</a></p>
                 <p>About</p>
                 <MenuIcon className="icon"></MenuIcon>
             </div>

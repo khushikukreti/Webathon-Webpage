@@ -1,0 +1,7 @@
+.title-image4{
+    height: 600px;
+    width: 100vw;
+    box-sizing: content-box;
+    background-image: url("https://www.cssd.ac.uk/sites/default/files/styles/twitter_card_image/public/2020-12/Events-and-Activities_CSSD_London_PB_161116_0408A5.jpg?h=be8b091f&itok=204Wm6sP");
+    background-size: cover;
+}

@@ -1,0 +1,7 @@
+.title-image1{
+    height: 600px;
+    width: 100vw;
+    box-sizing: content-box;
+    background-image: url("https://exambazaar-2020.s3.amazonaws.com/7840163a82fdf16df256e63fdcbdff21.JPG");
+    background-size: cover;
+}
