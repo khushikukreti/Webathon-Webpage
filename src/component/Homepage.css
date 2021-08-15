@@ -1,0 +1,8 @@
+.mainimage{
+    height: 60%;
+    border: 1px solid;
+    width: 75%;
+    position: absolute;
+    top: 30rem;
+    left: 10rem;
+}
